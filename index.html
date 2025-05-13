@@ -35,6 +35,13 @@
       border-radius: 12px;
     }
 
+    img {
+      margin-top: 30px;
+      width: 300px;
+      border-radius: 12px;
+      animation: fadeIn 2s ease-in;
+    }
+
     @keyframes fadeIn {
       from { opacity: 0; }
       to { opacity: 1; }
@@ -61,17 +68,19 @@
   <p>Saya betul-betul minta maaf dari hati saya.</p>
   <p>Tolonglah beri saya peluang kedua 😢</p>
   <p class="heart">❤️</p>
-<img src="ayden.jpg" alt="Isteri saya" width="300" style="border-radius: 12px; margin-top: 20px;">
 
-  
-  <!-- Embed YouTube lagu -->
-<button onclick="document.getElementById('player').style.display='block'">🎵 Dengar lagu ni</button>
-<div id="player" style="display:none; margin-top:20px;">
-  <iframe width="300" height="170" 
-    src="https://www.youtube.com/embed/Q-bhphWhahE?autoplay=1&loop=1&playlist=Q-bhphWhahE"
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
-</div>
-  
+  <!-- Gambar isteri -->
+  <img src="ayden.jpg" alt="Isteri saya">
+
+  <!-- Butang lagu YouTube -->
+  <button onclick="document.getElementById('player').style.display='block'">🎵 Dengar lagu ni</button>
+  <div id="player" style="display:none; margin-top:20px;">
+    <iframe width="300" height="170" 
+      src="https://www.youtube.com/embed/Q-bhphWhahE?autoplay=1&loop=1&playlist=Q-bhphWhahE"
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</body>
+</html>
